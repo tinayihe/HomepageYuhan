@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-8-4, 14:41:08
+    Author     : Yihe
+*/
+body{
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+
+.navigateur{
+    height: 10%;
+    margin-left: 7%;
+    margin-right: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.href{
+    color: white;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bold;
+    font-family: "1942 Report",Arial;
+}
+
+.navigateur div{    
+    width: auto;
+    float: left;
+    display: inline-block;
+    padding-right: 9%;
+}
+
+.main{
+    background-image: url("../image/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.main #nom{
+    color: #ffffcd;    
+    font-size: 55px;
+    margin-left: 20%;
+    margin-top: 100px; 
+}
+
+.main #titre{
+    color: #38c4ff;    
+    font-size: 55px;
+    margin-left: 20%;
+    font-family: high tower text,Arial;
+}
+
+.main #bleft{
+    width: 75%;
+    float: left;
+    height: 100%;    
+    padding-bottom: 12%;
+    font-family: high tower text,Arial;
+}
+
+.main1{
+    background-image: url("../image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.main1 h5{
+    color: #38c4ff;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: high tower text,Arial;
+    font-size: 25px;
+}
+
+.main1 p{
+    color: #ffffcd;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: high tower text,Arial;
+    font-size: 20px;
+}
+
+.main_me{
+    background-image: url("../image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.main_me img{
+    height: 270px;
+    float: left;
+    margin-right: 15px; 
+}
+
+.main_me h5{
+    color: #38c4ff;    
+    font-family: Arial;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.main_me p{
+    color: #ffffcd;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.main_me table{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+}
+
+.main_me #image{
+    width:10%;
+}
+
+.main_projet{
+    background-image: url("../image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.main_projet #projet{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    color: #ffffcd;
+    font-family: high tower text;
+    font-size: 16px;
+}
+    
+.main_contact{
+    background-image: url("../image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    color : #ffffff;
+    font-family: high tower text;
+}
+.main_contact h1{
+    color:#ffffcd;
+    font-family: high tower text;
+}
+.main_contact #contact{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.main_contact #contact{
+    float: left;
+}
+.main_contact #image{
+    float: left;
+    margin-top: 100px;
+}
+
+.pied{
+    height:10%;
+    color: #ffffff;
+    width: 100%;
+}
+
+.pied #left{
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-left: 5%;
+    margin-bottom: 20px;
+}
+
+.pied #right{
+    color: #ffffff;
+    width: 40%;
+    float: left;
+    height: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
